@@ -21,10 +21,10 @@ print("Mi nombres es {} {} y mi edad es {}".format(name, lastname, age))
 print("Mi nombres es %s %s y mi edad es %d"%(name, lastname, age))
 print("Mi nombres es" + name + "" + lastname + "y mi edad es" + str(age))
 print(f"Mi nombre es {name} {lastname} y mi edad es {age}")
-"""
+
 
 #Desempacado de caracteres
-
+"""
 language = "python"
 """
 a, b, c, d, e, f = language
@@ -56,10 +56,10 @@ print(reversed_language)
 #Funciones del lenguaje con  cadenas
 print(language.capitalize())
 print(language.upper())
-print(language.count(t))
+print(language.count("t"))
 print(language.isnumeric())
-print("1".isnumeric)
+print("1".isnumeric())
 print(language.lower())
 print(language.lower().isupper())
 print(language.startswicht("py"))
-print("Py" =="py") #No es lo mismo
+print("Py" == "py") # No es lo mismo
